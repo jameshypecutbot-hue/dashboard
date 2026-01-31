@@ -374,7 +374,7 @@ export default function Dashboard() {
         <div className="flex items-center gap-2">
           <span>James OS</span>
           <span>•</span>
-          <code className="bg-zinc-900 px-2 py-0.5 rounded text-zinc-500 font-mono">commit: loading...</code>
+          <code className="bg-zinc-900 px-2 py-0.5 rounded text-zinc-500 font-mono">v1.0.2</code>
         </div>
         <div className="flex items-center gap-4">
           <a href="https://github.com/jameshypecutbot-hue/dashboard" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">
