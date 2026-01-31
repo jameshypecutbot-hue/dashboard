@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ml2ldejyovw2v",
+    "sessionId": "sess_ml2ldbtqawe4e",
+    "parentId": "ml2ldbtpgs7yg",
+    "timestamp": "2026-01-31T17:34:28.846Z",
+    "level": "info",
+    "message": "Another child",
+    "details": "Some details"
+  },
+  {
+    "id": "ml2ldejrvus48",
+    "sessionId": "sess_ml2ldbtqawe4e",
+    "parentId": "ml2ldbtpgs7yg",
+    "timestamp": "2026-01-31T17:34:28.839Z",
+    "level": "debug",
+    "message": "Child log entry"
+  },
+  {
+    "id": "ml2ldbtpgs7yg",
+    "sessionId": "sess_ml2ldbtqawe4e",
+    "parentId": null,
+    "timestamp": "2026-01-31T17:34:25.310Z",
+    "level": "info",
+    "message": "Test parent log",
+    "source": "test"
+  }
+]
