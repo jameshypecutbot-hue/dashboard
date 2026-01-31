@@ -365,6 +365,21 @@ export default function Dashboard() {
           </Tabs>
         </div>
       </div>
+
+      {/* Footer with commit hash */}
+      <footer className="mt-8 pt-4 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-zinc-600">
+        <div className="flex items-center gap-2">
+          <span>James OS</span>
+          <span>•</span>
+          <code className="bg-zinc-900 px-2 py-0.5 rounded text-zinc-500 font-mono">commit: 40c691b</code>
+        </div>
+        <div className="flex items-center gap-4">
+          <a href="https://github.com/jameshypecutbot-hue/dashboard" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">
+            GitHub
+          </a>
+          <span>v1.0.0</span>
+        </div>
+      </footer>
     </div>
   );
 }
