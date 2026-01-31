@@ -252,6 +252,9 @@ export default function Dashboard() {
             </TabsList>
 
             <TabsContent value="board" className="mt-0">
+              <div className="mb-3 px-2">
+                <p className="text-xs text-zinc-500">📋 Kanban updated by James only • View-only mode</p>
+              </div>
               <div className="flex lg:grid lg:grid-cols-4 gap-3 lg:gap-4 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 snap-x snap-mandatory">
                 {COLUMNS.map((column) => {
                   const Icon = column.icon;
@@ -266,7 +269,7 @@ export default function Dashboard() {
                       <ScrollArea className="h-[350px] lg:h-[500px]">
                         <div className="space-y-3 pr-3">
                           {columnTasks.map((task) => (
-                            <Card key={task.id} className={`${STATUS_COLORS[task.status]} cursor-pointer transition-all hover:ring-1 hover:ring-zinc-600 min-h-[80px]`} onClick={() => moveTask(task.id, task.status === "todo" ? "progress" : task.status === "progress" ? "done" : task.status === "blocked" ? "progress" : "todo")}>
+                            <Card key={task.id} className={`${STATUS_COLORS[task.status]} transition-all hover:ring-1 hover:ring-zinc-600 min-h-[80px]`}>
                               <CardContent className="p-3 lg:p-4">
                                 <h4 className="font-medium text-sm mb-1 text-zinc-200">{task.title}</h4>
                                 <p className="text-xs text-zinc-500 mb-3 line-clamp-2">{task.description}</p>
@@ -371,7 +374,7 @@ export default function Dashboard() {
         <div className="flex items-center gap-2">
           <span>James OS</span>
           <span>•</span>
-          <code className="bg-zinc-900 px-2 py-0.5 rounded text-zinc-500 font-mono">commit: 40c691b</code>
+          <code className="bg-zinc-900 px-2 py-0.5 rounded text-zinc-500 font-mono">commit: loading...</code>
         </div>
         <div className="flex items-center gap-4">
           <a href="https://github.com/jameshypecutbot-hue/dashboard" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">
