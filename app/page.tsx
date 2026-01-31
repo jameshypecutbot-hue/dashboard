@@ -240,25 +240,58 @@ export default function Dashboard() {
               </div>
             </CardContent>
           </Card>
+
+          {/* James (AI Assistant) Profile */}
+          <Card className="bg-zinc-900 border-zinc-800 mt-4">
+            <CardContent className="p-4 lg:p-6">
+              <div className="flex items-center gap-4">
+                <div className="relative">
+                  <Avatar className="h-14 w-14 ring-4 ring-purple-500/30">
+                    <AvatarImage src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=150&h=150&fit=crop&crop=face" alt="James" />
+                    <AvatarFallback className="bg-gradient-to-br from-purple-500 to-pink-500 text-lg">
+                      🎩
+                    </AvatarFallback>
+                  </Avatar>
+                  <span className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-zinc-900 rounded-full"></span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-base font-semibold text-white">James</h3>
+                  <p className="text-xs text-zinc-500">Your AI Assistant</p>
+                  <Badge className="mt-1 bg-green-500/20 text-green-400 border-green-500/30 text-xs">
+                    <span className="w-1.5 h-1.5 bg-green-500 rounded-full mr-1 animate-pulse"></span>
+                    Working
+                  </Badge>
+                </div>
+              </div>
+              <div className="mt-4 pt-3 border-t border-zinc-800">
+                <p className="text-xs text-zinc-400 mb-2">Currently working on:</p>
+                <p className="text-sm text-white">Building TubeGen competitor UI</p>
+                <div className="flex items-center gap-2 mt-2 text-xs text-zinc-500">
+                  <Clock className="w-3 h-3" />
+                  <span>Last active: just now</span>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
 
         {/* Main Content */}
         <div className="col-span-1 lg:col-span-9">
           <Tabs defaultValue="logs" className="w-full">
-            <TabsList className="bg-zinc-900 border-zinc-800 mb-4 w-full lg:w-auto">
+            <TabsList className="bg-zinc-900 border-zinc-800 mb-4 w-full lg:w-auto flex flex-wrap gap-1">
               <TabsTrigger value="board" className="data-[state=active]:bg-zinc-800 flex-1 lg:flex-none">Board</TabsTrigger>
               <TabsTrigger value="logs" className="data-[state=active]:bg-zinc-800 flex-1 lg:flex-none">
-                Live Logs {logs.length > 0 && <span className="ml-1 text-xs text-zinc-500">({logs.length})</span>}
+                Logs {logs.length > 0 && <span className="ml-1 text-xs text-zinc-500">({logs.length})</span>}
               </TabsTrigger>
-              <Button 
-                variant="outline" 
-                className="border-zinc-700 text-zinc-300 hover:bg-zinc-800 ml-4"
-                onClick={() => window.location.href = '/tubegen'}
-              >
-                <Film className="w-4 h-4 mr-2" />
-                TubeGen Demo
-              </Button>
             </TabsList>
+            <Button 
+              variant="outline" 
+              className="border-zinc-700 text-zinc-300 hover:bg-zinc-800 w-full lg:w-auto mb-4 lg:mb-0 lg:ml-4"
+              onClick={() => window.location.href = '/tubegen'}
+            >
+              <Film className="w-4 h-4 mr-2" />
+              TubeGen Demo
+            </Button>
 
             <TabsContent value="board" className="mt-0">
               <div className="mb-3 px-2">
