@@ -1,5 +1,238 @@
 [
   {
+    "id": "ml2q7ma4up72j",
+    "sessionId": "sess_ml2q7ma4vczmq",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:49:57.004Z",
+    "level": "working",
+    "message": "Fixing UI integration issue",
+    "category": "task",
+    "details": "Components created but not properly integrated",
+    "metadata": {
+      "task": "Build TubeGen UI with mock data",
+      "status": "debugging"
+    }
+  },
+  {
+    "id": "ml2pt4pemsajt",
+    "sessionId": "sess_ml2pt4peb7luh",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:38:41.042Z",
+    "level": "working",
+    "message": "Task started: Build TubeGen UI with mock data",
+    "category": "task",
+    "details": "Creating functional dashboard interface with sample data",
+    "metadata": {
+      "task": "Build TubeGen UI with mock data",
+      "from": "todo",
+      "to": "progress"
+    }
+  },
+  {
+    "id": "ml2psxfj85bo7",
+    "sessionId": "sess_ml2psxfj91kdx",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:38:31.615Z",
+    "level": "success",
+    "message": "Task completed: Create cost tracking architecture",
+    "category": "task",
+    "details": "Designed credit system framework, moving to UI development",
+    "metadata": {
+      "task": "Create cost tracking architecture",
+      "from": "progress",
+      "to": "done"
+    }
+  },
+  {
+    "id": "ml2psqgy7v28z",
+    "sessionId": "sess_ml2psqgya3b92",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:38:22.594Z",
+    "level": "working",
+    "message": "Switching to UI development with mock data",
+    "category": "task",
+    "details": "Building functional dashboard first, backend later",
+    "metadata": {
+      "phase": "ui_mock_data",
+      "priority": "frontend"
+    }
+  },
+  {
+    "id": "ml2psa8whdfrk",
+    "sessionId": "sess_ml2psa8wdjsv4",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:38:01.568Z",
+    "level": "working",
+    "message": "Task started: Create cost tracking architecture",
+    "category": "task",
+    "details": "Building credit system similar to TubeGen model",
+    "metadata": {
+      "task": "Create cost tracking architecture",
+      "from": "todo",
+      "to": "progress"
+    }
+  },
+  {
+    "id": "ml2prrzgnr9if",
+    "sessionId": "sess_ml2prrzgey6no",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:37:37.900Z",
+    "level": "success",
+    "message": "Task completed: Design multi-source content system",
+    "category": "task",
+    "details": "Created comprehensive design for 5-platform content aggregation",
+    "metadata": {
+      "task": "Design multi-source content system",
+      "from": "progress",
+      "to": "done",
+      "platforms": "5"
+    }
+  },
+  {
+    "id": "ml2ppsv6syxry",
+    "sessionId": "sess_ml2ppsv66y0gp",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:36:05.730Z",
+    "level": "working",
+    "message": "Task started: Design multi-source content system",
+    "category": "task",
+    "details": "Planning content aggregation from multiple platforms",
+    "metadata": {
+      "task": "Design multi-source content system",
+      "from": "todo",
+      "to": "progress"
+    }
+  },
+  {
+    "id": "ml2pplye60vnq",
+    "sessionId": "sess_ml2pplyeqtnxm",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:35:56.774Z",
+    "level": "success",
+    "message": "Task completed: Research video generation APIs & costs",
+    "category": "task",
+    "details": "Created comprehensive API analysis with 5 major providers",
+    "metadata": {
+      "task": "Research video generation APIs & costs",
+      "from": "progress",
+      "to": "done",
+      "apis_analyzed": "5"
+    }
+  },
+  {
+    "id": "ml2po7olbqcmk",
+    "sessionId": "sess_ml2po7olvpypd",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:34:51.621Z",
+    "level": "working",
+    "message": "Researching video generation APIs without search",
+    "category": "research",
+    "details": "Using existing knowledge of AI video tools",
+    "metadata": {
+      "approach": "knowledge_based",
+      "tools": "multiple"
+    }
+  },
+  {
+    "id": "ml2pnxunpc95a",
+    "sessionId": "sess_ml2pnxun3yoij",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:34:38.879Z",
+    "level": "llm-request",
+    "message": "Requesting AI video generation API research",
+    "category": "llm",
+    "details": "Need comprehensive analysis of video AI tools, pricing, capabilities",
+    "metadata": {
+      "model": "kimi-code/kimi-for-coding",
+      "research_type": "api_analysis"
+    }
+  },
+  {
+    "id": "ml2pnqbaz4agn",
+    "sessionId": "sess_ml2pnqbacpqsn",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:34:29.110Z",
+    "level": "working",
+    "message": "Task started: Research video generation APIs & costs",
+    "category": "task",
+    "details": "Moving to In Progress - analyzing AI video tools",
+    "metadata": {
+      "task": "Research video generation APIs & costs",
+      "from": "todo",
+      "to": "progress"
+    }
+  },
+  {
+    "id": "ml2plgn8fcsqm",
+    "sessionId": "sess_ml2plgn8dp53b",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:32:43.268Z",
+    "level": "info",
+    "message": "Creating project breakdown for TubeGen competitor",
+    "category": "task",
+    "details": "Planning multi-mechanism video generation system",
+    "metadata": {
+      "project": "TubeGen competitor",
+      "phase": "planning"
+    }
+  },
+  {
+    "id": "ml2pl8zlwihmn",
+    "sessionId": "sess_ml2pl8zme5rl1",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:32:33.346Z",
+    "level": "working",
+    "message": "New project: Build TubeGen competitor system",
+    "category": "task",
+    "details": "Multi-mechanism video generation platform with cost control",
+    "metadata": {
+      "project": "TubeGen competitor",
+      "priority": "high"
+    }
+  },
+  {
+    "id": "ml2pfn23icaqd",
+    "sessionId": "sess_ml2pfn23z95ur",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:28:11.643Z",
+    "level": "info",
+    "message": "Creating Kanban cards for TubeGen.ai analysis",
+    "category": "task",
+    "details": "Breaking down into 4 main tasks",
+    "metadata": {
+      "task": "TubeGen.ai analysis",
+      "subtasks": "4"
+    }
+  },
+  {
+    "id": "ml2pf9e4zjhtc",
+    "sessionId": "sess_ml2pf9e4i8k1t",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:27:53.932Z",
+    "level": "working",
+    "message": "TubeGen.ai analysis complete",
+    "category": "task",
+    "details": "Identified 3-step workflow, AI features, pricing tiers",
+    "metadata": {
+      "task": "Analyze tubegen.ai",
+      "status": "analysis-complete"
+    }
+  },
+  {
+    "id": "ml2pep1cdxnnw",
+    "sessionId": "sess_ml2pep1dz31b4",
+    "parentId": null,
+    "timestamp": "2026-01-31T19:27:27.553Z",
+    "level": "working",
+    "message": "New task received: Analyze tubegen.ai",
+    "category": "task",
+    "details": "Breaking down analysis into manageable cards",
+    "metadata": {
+      "task": "Analyze tubegen.ai",
+      "status": "new"
+    }
+  },
+  {
     "id": "ml2o1oh9f241q",
     "sessionId": "sess_ml2o1oh9075b9",
     "parentId": null,

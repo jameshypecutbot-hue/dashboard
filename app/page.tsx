@@ -24,6 +24,7 @@ import {
   MessageSquare,
   RefreshCw,
   Trash2,
+  Film,
 } from "lucide-react";
 
 interface Task {
@@ -249,6 +250,14 @@ export default function Dashboard() {
               <TabsTrigger value="logs" className="data-[state=active]:bg-zinc-800 flex-1 lg:flex-none">
                 Live Logs {logs.length > 0 && <span className="ml-1 text-xs text-zinc-500">({logs.length})</span>}
               </TabsTrigger>
+              <Button 
+                variant="outline" 
+                className="border-zinc-700 text-zinc-300 hover:bg-zinc-800 ml-4"
+                onClick={() => window.location.href = '/tubegen'}
+              >
+                <Film className="w-4 h-4 mr-2" />
+                TubeGen Demo
+              </Button>
             </TabsList>
 
             <TabsContent value="board" className="mt-0">
