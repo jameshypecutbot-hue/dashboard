@@ -197,7 +197,8 @@ export default function Dashboard() {
         </div>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6">
+      {/* Mobile-first responsive grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-3 sm:gap-4 lg:gap-6">
         {/* Profile Card */}
         <div className="col-span-1 lg:col-span-3">
           <Card className="bg-zinc-900 border-zinc-800">
